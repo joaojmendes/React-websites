@@ -1,0 +1,131 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+$ms-greenLight:                 "[theme:greenLight, default:#bad80a]";
+$ms-neutralSecondaryAlt:        "[theme:info, default:#767676]";
+$ms-neutralLight:               "[theme:infoBackground, default:#eaeaea]";
+$ms-magenta:                    "[theme:magenta, default:#b4009e]";
+$ms-magentaDark:                "[theme:magentaDark, default:#5c005c]";
+$ms-magentaLight:               "[theme:magentaLight, default:#e3008c]";
+$ms-neutralDark:                "[theme:neutralDark, default:#212121]";
+$ms-neutralLight:               "[theme:neutralLight, default:#eaeaea]";
+$ms-neutralLighter:             "[theme:neutralLighter, default:#f4f4f4]";
+$ms-neutralLighterAlt:          "[theme:neutralLighterAlt, default:#f8f8f8]";
+$ms-neutralPrimary:             "[theme:neutralPrimary, default:#333333]";
+$ms-neutralPrimaryAlt:          "[theme:neutralPrimaryAlt, default:#3C3C3C]";
+$ms-neutralQuaternary:          "[theme:neutralPrimaryTranslucent50, default:#d0d0d0]";
+$ms-neutralQuaternaryAlt:       "[theme:neutralQuaternary, default:#dadada]";
+$ms-neutralSecondary:           "[theme:neutralQuaternaryAlt, default:#666666]";
+$ms-neutralSecondaryAlt:        "[theme:neutralSecondary, default:#767676]";
+$ms-neutralTertiary:            "[theme:neutralSecondaryAlt, default:#a6a6a6]";
+$ms-neutralTertiaryAlt:         "[theme:neutralTertiary, default:#c8c8c8]";
+$ms-white:                      "[theme:neutralTertiaryAlt, default:#ffffff]";
+$ms-orange:                     "[theme:orange, default:#d83b01]";
+$ms-orangeLight:                "[theme:orangeLight, default:#ea4300]";
+$ms-orangeLighter:              "[theme:orangeLighter, default:#ff8c00]";
+$ms-primaryBackground:          "[theme:primaryBackground, default:#0078d7]";
+$ms-primaryText:                "[theme:primaryText, default:#0078d7]";
+$ms-purple:                     "[theme:purple, default:#5c2d91]";
+$ms-purpleDark:                 "[theme:purpleDark, default:#32145a]";
+$ms-purpleLight:                "[theme:purpleLight, default:#b4a0ff]";
+$ms-red:                        "[theme:red, default:#e81123]";
+$ms-redDark:                    "[theme:redDark, default:#a80000]";
+$ms-success:                    "[theme:success, default:#107c10]";
+$ms-successBackground:          "[theme:successBackground, default:#dff6dd]";
+$ms-teal:                       "[theme:teal, default:#008272]";
+$ms-tealDark:                   "[theme:tealDark, default:#004b50]";
+$ms-tealLight:                  "[theme:tealLight, default:#00b294]";
+$ms-themeAccent:                "[theme:themeAccent, default:inherit]";
+$ms-themeAccentTranslucent10:   "[theme:themeAccentTranslucent10, default:inherit]";
+$ms-themeDark:                  "[theme:themeDark, default:#005a9e]";
+$ms-themeDarkAlt:               "[theme:themeDarkAlt, default:#106ebe]";
+$ms-themeDarker:                "[theme:themeDarker, default:#004578]";
+$ms-themeLight:                 "[theme:themeLight, default:#b3d6f2]";
+$ms-themeLightAlt:              "[theme:themeLightAlt, default:inherit]";
+$ms-themeLighter:               "[theme:themeLighter, default:#deecf9]";
+$ms-themeLighterAlt:            "[theme:themeLighterAlt, default:#eff6fc]";
+$ms-themePrimary:               "[theme:themePrimary, default:#0078d7]";
+$ms-themeSecondary:             "[theme:themeSecondary, default:#2488d8]";
+$ms-themeTertiary:              "[theme:themeTertiary, default:#69afe5]";
+$ms-themeTertiaryAlt:           "[theme:themeTertiaryAlt, default:#c8c8c8]";
+$ms-white:                      "[theme:white, default:#ffffff]";
+$ms-whiteTranslucent40:         "[theme:whiteTranslucent40, default:rgba(255,255,255,.4)]";
+$ms-yellow:                     "[theme:yellow, default:#ffb900]";
+$ms-yellowLight:                "[theme:yellowLight, default:#fff100]";
+
+.webSites {
+  
+  .ms-DocumentCardPreview {
+    background-color: $ms-themePrimary;
+  
+   } 
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .row {
+    @include ms-Grid-row;
+    @include ms-fontColor-white;
+    background-color: $ms-color-themeDark;
+    padding: 20px;
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush1;
+  }
+
+  .title {
+    @include ms-font-xl;
+    @include ms-fontColor-white;
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .description {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .button {
+    // Our button
+    text-decoration: none;
+    height: 32px;
+
+    // Primary Button
+    min-width: 80px;
+    background-color: $ms-color-themePrimary;
+    border-color: $ms-color-themePrimary;
+    color: $ms-color-white;
+
+    // Basic Button
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: $ms-font-size-m;
+    font-weight: $ms-font-weight-regular;
+    border-width: 0;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 16px;
+
+    .label {
+      font-weight: $ms-font-weight-semibold;
+      font-size: $ms-font-size-m;
+      height: 32px;
+      line-height: 32px;
+      margin: 0 4px;
+      vertical-align: top;
+      display: inline-block;
+    }
+    
+  }
+}
