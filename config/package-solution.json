@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "websites-client-side-solution",
+    "id": "4449a2ed-6e9f-4816-9785-8f482a549957",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/websites.sppkg"
+  }
+}

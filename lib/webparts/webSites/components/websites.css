@@ -1,0 +1,60 @@
+/* .ms-DocumentCardPreview {
+   background-color: #0080ff; 
+  } */
+  .wrapper {
+    overflow: hidden;
+}
+  .sites-area{
+    overflow: auto;
+    width: 102%;
+    max-height: 450px;
+  }
+  
+  .title {
+    margin-Bottom: 6;
+    font-Size: 18;
+    
+    margin-Top: 25;
+
+  }
+  .desc {
+    margin-Bottom: 14;
+    font-Size: 12;
+  }
+  .divider {
+    border-Bottom: 'solid';
+    border-Bottom-Width: 1;
+    border-Bottom-Color: '#DCDCDC';
+  }
+  .link {
+     text-Decoration: 'none';
+     display: inline-block;
+     padding: 5px 5px 5px 5px;
+  }
+  .ContainerCard-bannerImagesp {
+    background-color: rgb(212, 60, 60);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+.ContainerCard-acronymsp, .ContainerCard-bannerImagesp {
+  position: relative;
+  margin-left: 15px;
+  top: -20px;
+  padding-top: 7px;
+  width: 48px;
+  height: 48px;
+  font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 21px;
+  font-weight: 100;
+  font-family: "Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  text-align: center;
+  color: rgb(236, 235, 243);
+  box-shadow: 0 0 4px 0 rgba(0,0,0,.2);
+  border: 1px solid #fff;
+}
+.ContainerCard a {
+  text-decoration: none;
+}

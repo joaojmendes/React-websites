@@ -1,0 +1,5 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/write-manifests.schema.json",
+ //  "cdnBasePath": "https://publiccdn.sharepointonline.com/sitenanuvem.sharepoint.com/sites/cdn/rep/websites"
+  "cdnBasePath": "https://publiccdn.sharepointonline.com/bialgroup.sharepoint.com/sites/cdn/app_assets/websites"
+}
